@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Dec 14 16:07:48 2020
+# Process ID: 18979
+# Current directory: /home/clara/Documents/MAPD/FIR_filter/FIR_filter
+# Command line: vivado
+# Log file: /home/clara/Documents/MAPD/FIR_filter/FIR_filter/vivado.log
+# Journal file: /home/clara/Documents/MAPD/FIR_filter/FIR_filter/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/clara/Documents/MAPD/FIR_filter/FIR_filter/FIR_filter.xpr
+launch_simulation
+open_wave_config /home/clara/Documents/MAPD/FIR_filter/FIR_filter/tb_with_file_behav.wcfg
+source tb_with_file.tcl
+close_sim
+launch_simulation
+open_wave_config /home/clara/Documents/MAPD/FIR_filter/FIR_filter/tb_with_file_behav.wcfg
+source tb_with_file.tcl
+close_sim
+launch_simulation
+open_wave_config /home/clara/Documents/MAPD/FIR_filter/FIR_filter/tb_with_file_behav.wcfg
+source tb_with_file.tcl
+close_sim
+launch_simulation
+open_wave_config /home/clara/Documents/MAPD/FIR_filter/FIR_filter/tb_with_file_behav.wcfg
+source tb_with_file.tcl
+close_sim
+launch_simulation
+open_wave_config /home/clara/Documents/MAPD/FIR_filter/FIR_filter/tb_with_file_behav.wcfg
+source tb_with_file.tcl
+close_sim
+launch_simulation
+open_wave_config /home/clara/Documents/MAPD/FIR_filter/FIR_filter/tb_with_file_behav.wcfg
+source tb_with_file.tcl
+close_sim
+launch_simulation
+open_wave_config /home/clara/Documents/MAPD/FIR_filter/FIR_filter/tb_with_file_behav.wcfg
+source tb_with_file.tcl
+close_sim
+launch_simulation
+open_wave_config /home/clara/Documents/MAPD/FIR_filter/FIR_filter/tb_with_file_behav.wcfg
+source tb_with_file.tcl
+close_sim
+launch_simulation
+open_wave_config /home/clara/Documents/MAPD/FIR_filter/FIR_filter/tb_with_file_behav.wcfg
+source tb_with_file.tcl
+close_sim
+launch_simulation
+open_wave_config /home/clara/Documents/MAPD/FIR_filter/FIR_filter/tb_with_file_behav.wcfg
+source tb_with_file.tcl
+close_sim
+launch_simulation
+open_wave_config /home/clara/Documents/MAPD/FIR_filter/FIR_filter/tb_with_file_behav.wcfg
+source tb_with_file.tcl
+close_sim
+launch_simulation
+open_wave_config /home/clara/Documents/MAPD/FIR_filter/FIR_filter/tb_with_file_behav.wcfg
+source tb_with_file.tcl
+set_property -name {xsim.simulate.runtime} -value {0.5ms} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config /home/clara/Documents/MAPD/FIR_filter/FIR_filter/tb_with_file_behav.wcfg
+source tb_with_file.tcl
+save_wave_config {/home/clara/Documents/MAPD/FIR_filter/FIR_filter/tb_with_file_behav.wcfg}
+close_sim

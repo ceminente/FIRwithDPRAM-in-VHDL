@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Dec 17 12:43:00 2020
+# Process ID: 11745
+# Current directory: /home/clara/Documents/MAPD/Assignments_Chimenti_Eminente/Ex3_FIR_filter/FIR_filter
+# Command line: vivado
+# Log file: /home/clara/Documents/MAPD/Assignments_Chimenti_Eminente/Ex3_FIR_filter/FIR_filter/vivado.log
+# Journal file: /home/clara/Documents/MAPD/Assignments_Chimenti_Eminente/Ex3_FIR_filter/FIR_filter/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/clara/Documents/MAPD/Assignments_Chimenti_Eminente/Ex3_FIR_filter/FIR_filter/FIR_filter.xpr
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+open_wave_config /home/clara/Documents/MAPD/Assignments_Chimenti_Eminente/Ex3_FIR_filter/FIR_filter/tb_with_file_behav.wcfg
+source tb_with_file.tcl
+close_sim

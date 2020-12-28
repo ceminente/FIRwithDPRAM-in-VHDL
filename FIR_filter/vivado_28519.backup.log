@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Dec 16 18:33:31 2020
+# Process ID: 28519
+# Current directory: /home/clara/Documents/MAPD/Assignments_Chimenti_Eminente/Ex3_FIR_filter/FIR_filter
+# Command line: vivado
+# Log file: /home/clara/Documents/MAPD/Assignments_Chimenti_Eminente/Ex3_FIR_filter/FIR_filter/vivado.log
+# Journal file: /home/clara/Documents/MAPD/Assignments_Chimenti_Eminente/Ex3_FIR_filter/FIR_filter/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/clara/Documents/MAPD/Assignments_Chimenti_Eminente/Ex3_FIR_filter/FIR_filter/FIR_filter.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.2/data/ip'.
+INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Dec 16 18:42:48 2020] Launched synth_1...
+Run output will be captured here: /home/clara/Documents/MAPD/Assignments_Chimenti_Eminente/Ex3_FIR_filter/FIR_filter/FIR_filter.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed Dec 16 18:43:26 2020] Launched impl_1...
+Run output will be captured here: /home/clara/Documents/MAPD/Assignments_Chimenti_Eminente/Ex3_FIR_filter/FIR_filter/FIR_filter.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 16 18:44:45 2020...

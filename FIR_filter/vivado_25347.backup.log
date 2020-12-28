@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Dec 13 19:08:47 2020
+# Process ID: 25347
+# Current directory: /home/clara/Documents/MAPD/FIR_filter/FIR_filter
+# Command line: vivado
+# Log file: /home/clara/Documents/MAPD/FIR_filter/FIR_filter/vivado.log
+# Journal file: /home/clara/Documents/MAPD/FIR_filter/FIR_filter/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/clara/Documents/MAPD/FIR_filter/FIR_filter/FIR_filter.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.2/data/ip'.
+INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/clara/Documents/MAPD/FIR_filter/FIR_filter/FIR_filter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_with_file' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/clara/Documents/MAPD/FIR_filter/FIR_filter/FIR_filter.sim/sim_1/behav/xsim'
+xvhdl --incr --relax -prj tb_with_file_vhdl.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/clara/Documents/MAPD/FIR_filter/FIR_filter/FIR_filter.sim/sim_1/behav/xsim'
+xelab -wto 5ced04818baf4750abb32e19d517f6df --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot tb_with_file_behav xil_defaultlib.tb_with_file -log elaborate.log
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto 5ced04818baf4750abb32e19d517f6df --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot tb_with_file_behav xil_defaultlib.tb_with_file -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/clara/Documents/MAPD/FIR_filter/FIR_filter/FIR_filter.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_with_file_behav -key {Behavioral:sim_1:Functional:tb_with_file} -tclbatch {tb_with_file.tcl} -view {/home/clara/Documents/MAPD/FIR_filter/FIR_filter/tb_with_file_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+open_wave_config /home/clara/Documents/MAPD/FIR_filter/FIR_filter/tb_with_file_behav.wcfg
+source tb_with_file.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100ms
+run: Time (s): cpu = 00:00:21 ; elapsed = 00:00:19 . Memory (MB): peak = 7494.688 ; gain = 0.000 ; free physical = 4355 ; free virtual = 14256
+xsim: Time (s): cpu = 00:00:29 ; elapsed = 00:00:22 . Memory (MB): peak = 7494.688 ; gain = 110.582 ; free physical = 4355 ; free virtual = 14256
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_with_file_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100ms
+launch_simulation: Time (s): cpu = 00:00:32 ; elapsed = 00:00:25 . Memory (MB): peak = 7494.688 ; gain = 110.582 ; free physical = 4355 ; free virtual = 14256
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 13 19:13:08 2020...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Dec 17 12:50:22 2020
+# Process ID: 13103
+# Current directory: /home/clara/Documents/MAPD/Assignments_Chimenti_Eminente/Ex3_FIR_filter/FIR_filter/FIR_filter.runs/synth_1
+# Command line: vivado -log fir.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fir.tcl
+# Log file: /home/clara/Documents/MAPD/Assignments_Chimenti_Eminente/Ex3_FIR_filter/FIR_filter/FIR_filter.runs/synth_1/fir.vds
+# Journal file: /home/clara/Documents/MAPD/Assignments_Chimenti_Eminente/Ex3_FIR_filter/FIR_filter/FIR_filter.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source fir.tcl -notrace
